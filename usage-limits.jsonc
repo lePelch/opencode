@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/mynameistito/opencode-plugins/main/packages/opencode-usage-limits/usage-limits.schema.json",
+  "enabled": true,
+  "showErrors": true,
+  "providers": {
+    "codex": {
+      "enabled": true,
+      "label": "Codex",
+      "showSidebarBar": true,
+      "showFooterBar": true,
+      "sidebarWindow": "all",
+      "footerWindow": "auto"
+    }
+  }
+}
