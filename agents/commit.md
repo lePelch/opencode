@@ -34,7 +34,7 @@ permissions:
     effect: allow
   - action: shell
     resource: "git add *"
-    effect: ask
+    effect: allow
   - action: shell
     resource: "git commit*"
     effect: ask
