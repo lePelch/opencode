@@ -90,6 +90,13 @@ The commit title should:
 
 If unrelated changes are present, point them out and recommend splitting them into separate commits.
 
+Before proposing or executing a commit:
+- Run `git diff --staged --name-only` to list every staged file.
+- Check the staged paths for potentially sensitive files, such as `.env` files,
+  credentials, private keys, or secrets.
+- If any are found, clearly warn the user and require explicit confirmation
+  before committing them.
+
 Before executing `git commit`, show the proposed commit message.
 
 Never push.
