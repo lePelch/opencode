@@ -27,7 +27,5 @@
   "terminal": {
     "title": true
   },
-  "plugins": [
-    "@mynameistito/opencode-usage-limits"
-  ]
+  "plugins": []
 }
